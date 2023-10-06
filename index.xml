@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        /* Estilos de texto y enlaces */
+        p, a {
+            font-size: 18px;
+            color: #333333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Estilos del header */
+        .header img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        /* Estilos del contenido */
+        .content {
+            padding: 20px;
+            text-align: justify;
+        }
+        .content .title {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .content .title span {
+            padding: 20px;
+            background-color: black;
+            color: white;
+        }
+        /* Estilos del footer */
+        .footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .footer .title {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .footer .title img {
+            margin-top: 10px;
+        }
+        /* Estilo del botón */
+        .button {
+            display: block;
+            padding: 20px;
+            background-color: #ff6600;
+            color: white;
+            border: 2px solid #ff6600;
+            text-decoration: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 0 auto;
+            max-width: 200px;
+            text-align: center;
+            font-size: large;
+        }
+        .button:hover {
+            background-color: #f06d22;
+            border-color: #ff6600;
+        }
+        /* Estilos de información de contacto y firma */
+        .contact-info, .signature {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info img {
+            width: 20px;
+            vertical-align: middle;
+        }
+        .contact-info p {
+            text-align: center;
+            margin: 5px 0;
+         color: #ffffff;
+        }
+        .contact-info p img {
+            margin-right: 5px;
+        }
+        .signature p {
+            margin: 5px 0;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="file:///C:/Users/belu8/Desktop/html%20mail/img/Top.png" alt="imagen" width="800" height="200" />
+        </header>
+        <div class="content">
+            <p>¿Qué tal? Mi nombre es Pablo, soy experto en marketing digital en Go To Market Marketing, agencia de marketing especializada en ayudar a otras agencias a facturar más, fidelizar clientes y facilitar la subcontratación de servicios.</p>
+            <p>Aquí os cuento cómo:</p>
+            <ul>
+                <li>Facturar más al poder incorporar más servicios, tanto en cantidad como en variedad, para vuestros clientes.</li>
+                <li>Menos dolores de cabeza al centralizar el outsourcing de freelancers en una agencia como la nuestra.</li>
+                <li>Fidelizando a vuestros clientes al evitar que se vayan a conocer otras agencias, ya que no ofrecéis un servicio de marketing 360º.</li>
+            </ul>
+            <p>Tras varios años relacionándome con agencias de marketing, observé que podía ayudarles a darme cuenta de que la subcontratación con freelancers da mucho dolor de cabeza y resultados inciertos… Además de que se perdían muchas oportunidades de negocio y clientes al no poder abarcar todos los servicios. Es por eso que os queremos ayudar.</p>
+          <span>  <a href="#" class="button"  > Agendar Reunión</a></span>  </div>
+        <footer class="footer">
+            <div class="responsive-image">
+                <img src="file:///C:/Users/belu8/Desktop/html%20mail/img/Img.png" alt="Imagen" width="100%" style="max-width: 100%;" />
+            </div>
+            <div class="contact-info">
+                <p><img src="file:///C:/Users/belu8/Desktop/html%20mail/img/correo-electronico.png" alt="Correo" /> pablo.rodriguez@gotomarket.marketing</p>
+              
+                <p><img src="file:///C:/Users/belu8/Desktop/html%20mail/img/whatsapp.png" alt="WhatsApp" /> +34 638 045 037</p>
+            </div>
+            <div class="signature">
+                <p><b>Go To Market Marketing</b></p>
+                <p><b>Pablo Rodríguez</b></p>
+                <p><b>Experto en Marketing Digital</b></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
